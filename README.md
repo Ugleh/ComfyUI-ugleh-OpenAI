@@ -20,6 +20,20 @@ Outputs:
 
 ## Setup
 
+### Using Your API Key
+
+To securely store your OpenAI API key:
+
+1. Create a file named `.env` in the root folder of your ComfyUI installation.
+2. Add the following line to the `.env` file:
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
+   Replace `your_api_key_here` with your actual OpenAI API key.
+3. Save the file.
+
+This method allows you to keep your API key secure and separate from your code.
+
 ### Installation and Usage
 
 1. Navigate to ComfyUI/custom_nodes folder in the terminal or command prompt.
