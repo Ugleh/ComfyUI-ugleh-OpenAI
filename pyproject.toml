@@ -12,6 +12,14 @@ dependencies = [
   "python-dotenv",
 ]
 
+[project.urls]
+# TODO: set this after you push the repo
+Repository = "https://github.com/Ugleh/ComfyUI-ugleh-OpenAI"
+
+[tool.comfy]
+PublisherId = "ugleh"
+DisplayName = "Ugleh"
+
 [tool.setuptools]
 # This is a ComfyUI custom_nodes repo; packaging is optional.
 # The 'name' field is used by ComfyUI-Manager for folder normalization.
